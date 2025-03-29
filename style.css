@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000;
+    font-family: "Rubik", sans-serif;
+}
+.card{
+    width: 847px;
+    height: 279px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+   
+    
+}
+.product-image{
+width: 262px;
+height: 219px;
+
+
+}
+.product-title h1{
+    font-family: "Rubik", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 120%;
+
+}
+.product-image img{
+    width: 140px;
+    height: 172.51px;
+    transform: rotate(-28.27deg);
+    
+    margin-left: 60px;
+
+}
+.identifier {
+    display:flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+h3{
+    font-size: 14px;
+    font-weight: 400;
+    color: #808080;
+}
+.nine{
+color: #808080;
+font-weight: 500;
+text-decoration: line-through;
+}
+.stars{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+.stars img{
+    margin: 0 2px;
+}
+.six{
+    float: right;
+    color: #941B0C;
+    font-size: 43px;
+    font-weight: 500px;
+}
+.one{
+    font-size: 14px;
+    color: #808080;
+    margin-left: 10px;
+}
+footer{
+    height: 60px;   
+    background-color: #F2F2F2;
+    width: 847px;
+    place-content: center;
+    align-items: center;
+   
+  
+}
+.footer-laman{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.laman{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 50px;
+}
+.laman img{
+    width: 24px;
+    height: 24px;
+    margin-right: 15px;
+}
